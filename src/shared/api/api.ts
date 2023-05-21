@@ -2,7 +2,7 @@ import axios from 'axios';
 import { USER_LOCALSTORAGE_KEY } from '@/shared/const/localstorage';
 
 export const $api = axios.create({
-    baseURL: __API__,
+    baseURL: 'https://diplom-server-8s40.onrender.com',
 });
 
 $api.interceptors.request.use((config) => {
