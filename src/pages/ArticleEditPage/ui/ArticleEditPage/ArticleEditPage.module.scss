@@ -1,0 +1,120 @@
+.ArticleEditPage {
+    padding: 10px;
+}
+
+.blockInput {
+    margin-top: 20px;
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.img {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.blockInputImg {
+    margin-top: 20px;
+    display: flex;
+}
+
+.imgBlockInput {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.types {
+    display: flex;
+    margin-top: 10px;
+}
+
+.itemType {
+    margin-right: 10px;
+    min-width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.itemTypeSelect {
+    background: var(--accent-redesigned);
+    color: var(--inverted-secondary-color);
+    margin-right: 10px;
+    min-width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        color: var(--inverted-secondary-color);
+    }
+}
+
+.blocks {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.blockItemText {
+    margin-top: 15px;
+}
+
+.blockTextP {
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.delP {
+    margin-left: 10px;
+}
+
+.paragraphInput {
+    margin-top: 15px;
+}
+
+.titleTextBlock {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.createBtn {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.codeInput {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 2px solid var(--icon-redesigned);
+    width: 100%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--text-redesigned);
+    background: none;
+    padding: 20px;
+
+    &::placeholder {
+       color: var(--hint-redesigned);
+    }
+}
+
+.imgBlock {
+    margin-top: 10px;
+}
