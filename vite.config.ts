@@ -9,7 +9,7 @@ export default defineConfig({
     },
     define: {
         __IS_DEV__: JSON.stringify(true),
-        __API__: JSON.stringify('https://diplom-server-8s40.onrender.com/'),
+        __API__: JSON.stringify('https://diplom-server-8s40.onrender.com'),
         __PROJECT__: JSON.stringify('frontend'),
     },
 });

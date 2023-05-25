@@ -11,7 +11,7 @@ function getApiUrl(mode: BuildMode, apiUrl?: string) {
         return '/api';
     }
 
-    return 'https://diplom-server-8s40.onrender.com/';
+    return 'https://diplom-server-8s40.onrender.com';
 }
 
 export default (env: BuildEnv) => {
